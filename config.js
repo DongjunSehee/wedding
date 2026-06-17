@@ -18,33 +18,33 @@ const CONFIG = {
 
   // ── 메인 (히어로) ──
   groom: {
-    name: "신랑",
+    name: "서동준",
     nameEn: "Groom",
-    father: "아버지",
-    mother: "어머니",
+    father: "서범수",
+    mother: "강봉숙",
     fatherDeceased: false,
     motherDeceased: false
   },
 
   bride: {
-    name: "신부",
+    name: "박세희",
     nameEn: "Bride",
-    father: "아버지",
-    mother: "어머니",
+    father: "박경태",
+    mother: "문상희",
     fatherDeceased: false,
     motherDeceased: false
   },
 
   wedding: {
-    date: "2026-05-09",
-    time: "13:00",
-    venue: "예식장 이름",
-    hall: "그랜드홀 5층",
-    address: "서울특별시 강남구 테헤란로 123",
-    tel: "02-1234-5678",
+    date: "2026-10-24",
+    time: "12:00",
+    venue: "예술웨딩컨벤션",
+    hall: "하비홀 2층",
+    address: "전남 목포시 남농로 9",
+    tel: "061-276-0050",
     mapLinks: {
-      kakao: "https://map.kakao.com/",
-      naver: "https://map.naver.com/"
+      kakao: "https://place.map.kakao.com/10940406",
+      naver: "https://map.naver.com/p/entry/place/20256060?c=15.00,0,0,0,dh&placePath=/home?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202606172038&locale=ko&svcName=map_pcv5"
     }
   },
 
@@ -57,7 +57,7 @@ const CONFIG = {
   // ── 우리의 이야기 ──
   story: {
     title: "우리의 이야기",
-    content: "서로 다른 길을 걷던 두 사람이\n하나의 길을 함께 걷게 되었습니다.\n\n여러분을 소중한 자리에 초대합니다."
+    content: "있는 그대로 사랑하고 서로의 존재에 감사하며\n곁에 있을때 가장 나다운 모습이 되게 하는 사람과\n모든 계절을 함께 하고자 합니다.\n그 시작의 자리에\n늘 곁에서 아껴주셨던 소중한 분들을 모십니다."
   },
 
   // ── 오시는 길 ──
@@ -66,20 +66,20 @@ const CONFIG = {
   // ── 마음 전하실 곳 ──
   accounts: {
     groom: [
-      { role: "신랑", name: "홍길동", bank: "국민은행", number: "000-000-000000" },
-      { role: "아버지", name: "홍판서", bank: "신한은행", number: "000-000-000000" },
-      { role: "어머니", name: "김부인", bank: "우리은행", number: "000-000-000000" }
+      { role: "신랑", name: "서동준", bank: "국민은행", number: "944502-00-493535" },
+      { role: "아버지", name: "서범수", bank: "농협은행", number: "448-02-016941" },
+      { role: "어머니", name: "강봉숙", bank: "농협은행", number: "584-02-063062" }
     ],
     bride: [
-      { role: "신부", name: "김영희", bank: "하나은행", number: "000-000-000000" },
-      { role: "아버지", name: "김사장", bank: "기업은행", number: "000-000-000000" },
-      { role: "어머니", name: "이부인", bank: "농협은행", number: "000-000-000000" }
+      { role: "신부", name: "박세희", bank: "농협은행", number: "352-1163-630273" },
+      { role: "아버지", name: "박경태", bank: "국민은행", number: "752201-01-019365" },
+      { role: "어머니", name: "이부인", bank: "농협은행", number: "527021-56-074755" }
     ]
   },
 
   // ── 링크 공유 시 나타나는 문구 ──
   meta: {
     title: "신랑 ♥ 신부 결혼합니다",
-    description: "2026년 5월 9일, 소중한 분들을 초대합니다."
+    description: "2026년 10월 24일, 소중한 분들을 초대합니다."
   }
 };
